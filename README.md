@@ -115,6 +115,12 @@ new System.Collections.Generic.Dictionary<string, string>() {
 ## Installation of release version
 Use instructions from marketplace.
 
+## Uninstalling
+When CSharpFixFormat is installed, it recommends to disable C# code format.
+After removing the extension, you should manually restore the code format setting:
+1. Open VS Code settings
+2. Set `"csharp.format.enable": true`
+3. Reload the application
 
 ## Installation from sources
 1. Install node.js.
